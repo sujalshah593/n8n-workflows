@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "Details For Leads",
+        "formDescription": "This is lead generation form where you can find companies according to your requirements",
+        "formFields": {
+          "values": [
+            {
+              "fieldName": "Country",
+              "fieldLabel": "Country",
+              "placeholder": "Country",
+              "requiredField": true
+            },
+            {
+              "fieldName": "State",
+              "fieldLabel": "States",
+              "placeholder": "State"
+            },
+            {
+              "fieldName": "City",
+              "fieldLabel": "City",
+              "placeholder": "City"
+            },
+            {
+              "fieldName": "Area",
+              "fieldLabel": "Area",
+              "placeholder": "Area"
+            },
+            {
+              "fieldName": "Category",
+              "fieldLabel": "Category",
+              "placeholder": "category of business",
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.4,
+      "position": [
+        -1904,
+        272
+      ],
+      "id": "94955767-77b7-449d-8872-26784c7ebf4e",
+      "name": "On form submission",
+      "webhookId": "ace346ad-32ab-47ff-bc63-d012121cb510"
+    }
+  ]
+}
