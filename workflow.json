@@ -47,5 +47,7 @@
       "name": "On form submission",
       "webhookId": "ace346ad-32ab-47ff-bc63-d012121cb510"
     }
-  ]
+  ],
+  "connections": {},
+  "meta": {}
 }
